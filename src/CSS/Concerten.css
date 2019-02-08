@@ -1,0 +1,163 @@
+*{
+    box-sizing:border-box;
+}
+
+.post{
+    padding-right: 180px;
+}
+
+.column1{
+   margin-left:15px;
+}
+
+.column2{
+    margin-left: 20px;
+
+}
+
+.column3{
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+}
+
+body{
+    margin:0px;
+    padding:0px;
+    font-family: 'Raleway', sans-serif;
+}
+
+/*menu balk*/
+img#banner {
+    width:100%;
+}
+
+li{
+    background-color:rgb(31,39,58);
+    padding:10px;
+    border-right:1px solid white;
+    display:inline-block;
+}
+
+
+
+ul{
+    padding:0px;
+    margin:0px;
+    list-style-type:none;
+    background-color:rgb(31,39,58);
+}
+
+li a{
+
+    text-decoration:none;
+    font-weight:700;
+}
+
+/*footer*/
+footer{
+    background-color:darkgrey;
+    color:white;
+    padding:20px;
+    clear:both;
+}
+
+footer a{
+    color:white;
+}
+
+div#wrapper{
+    width:1250px;
+    margin:auto;
+    background-color:white;
+    border-left: solid black 1px;
+    border-right: solid black 1px;
+}
+
+/*text*/
+
+.newspaper1{
+    -moz-columns: 100px 3; /* Firefox Browser*/
+    columns: 100px 3;
+}
+
+.newspaper2 {
+    -moz-columns: 100px 3; /* Firefox Browser*/
+    columns: 100px 3;
+}
+
+
+.p{
+    text-align: left;
+}
+
+/*4image*/
+
+ * {
+     box-sizing: border-box;
+ }
+
+body {
+    background-color: #f1f1f1;
+    font-family: Arial;
+}
+
+/* Center website */
+.main {
+    max-width: 1000px;
+    margin: auto;
+}
+
+
+h1 {
+    font-size: 50px;
+    word-break: break-all;
+}
+
+h2 {
+    margin-left: 15px;
+}
+
+h3 {
+    margin-left: 25px;
+}
+
+h5 {
+    padding-left: 110px;
+}
+
+.ban1 {
+    font-size: 17px;
+    position:relative;
+    top:50px;
+    left:11px;
+}
+
+.row {
+    margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+    padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+}
+
+/* Clear floats after rows */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Content */
+.content {
+    background-color: white;
+    padding: 10px;
+}

@@ -1,0 +1,82 @@
+*{
+    box-sizing:border-box;
+}
+
+h1{
+    margin: 5px;
+}
+
+body{
+    margin:0px;
+    padding:0px;
+    font-family: 'Raleway', sans-serif;
+}
+
+img{
+    width:100%;
+}
+
+#sporttext{
+    display: inline-block;
+    width: 25%;
+}
+
+#sportpica{
+    display: inline-block;
+    width: 20%;
+}
+
+div#wrapper{
+    width:1250px;
+    margin:auto;
+    background-color:white;
+    border-left: solid black 1px;
+    border-right: solid black 1px;
+}
+
+footer{
+    background-color:darkgrey;
+    color:white;
+    padding:20px;
+    clear:both;
+}
+
+footer a{
+    color:white;
+}
+
+article{
+    display: inline-block;
+    width: 45%;
+    padding-right:15px;
+    vertical-align: top;
+    padding-left: 10px;
+}
+
+/*menu balk*/
+img#banner {
+    width:100%;
+}
+
+li{
+    background-color:rgb(31,39,58);
+    padding:10px;
+    border-right:1px solid white;
+    display:inline-block;
+}
+
+
+ul{
+    padding:0px;
+    margin:0px;
+    list-style-type:none;
+    background-color:rgb(31,39,58);
+}
+
+li a{
+
+    text-decoration:none;
+    font-weight:700;
+}
+
+/*footer*/

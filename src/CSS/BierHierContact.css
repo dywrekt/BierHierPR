@@ -1,0 +1,35 @@
+/*header*/
+h1{
+    position: absolute;
+    left: 90px;
+}
+
+/*iframe google location*/
+section {
+    padding-top: 80px;
+    padding-right: 400px;
+    padding-bottom: 150px;
+    padding-left: 80px;
+    position: absolute;
+    left: 20px;
+    top: 5px;
+}
+
+/*contact*/
+article {
+    border: 2px solid black;
+    padding-top: 80px;
+    padding-right: 400px;
+    padding-bottom: 150px;
+    padding-left: 80px;
+    position: absolute;
+    right: 20px;
+    top: 80px;
+}
+
+#tekst {
+    postion: absolute;
+    right: 10px;
+    top: 10px;
+}
+
